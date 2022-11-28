@@ -1,0 +1,14 @@
+{
+    "Args": [
+        "hello"
+    ],
+    "RunConfig": {
+        "Ports": [
+            "12345"
+        ]
+    },
+    "Program": "./hello",
+    "Files": [
+        "hello"
+    ]
+}

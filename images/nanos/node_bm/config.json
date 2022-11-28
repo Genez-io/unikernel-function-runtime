@@ -1,0 +1,14 @@
+{
+    "Args": [
+        "hello.js"
+    ],
+    "RunConfig": {
+        "Ports": [
+            "12345"
+        ]
+    },
+    "Program": "/usr/bin/node",
+    "Files": [
+        "hello.js"
+    ]
+}

@@ -1,0 +1,35 @@
+Firecracker main: 2022-11-28T16:08:56.663
+Start vcpus: 2022-11-28T16:08:56.669
+warning: ACPI MADT not found, default to 1 processor
+NET: no network interface found
+[0.033658, 0, exec] starting process tid 2, start 0x000019b562c8d100
+Hello world from Node.js!
+
+Firecracker main: 2022-11-28T16:08:57.314
+Start vcpus: 2022-11-28T16:08:57.318
+warning: ACPI MADT not found, default to 1 processor
+NET: no network interface found
+[0.030234, 0, exec] starting process tid 2, start 0x000055c2ade36100
+Hello world from Node.js!
+
+Firecracker main: 2022-11-28T16:08:57.973
+Start vcpus: 2022-11-28T16:08:57.979
+warning: ACPI MADT not found, default to 1 processor
+NET: no network interface found
+[0.038288, 0, exec] starting process tid 2, start 0x0000362482693100
+Hello world from Node.js!
+
+Firecracker main: 2022-11-28T16:08:58.604
+Start vcpus: 2022-11-28T16:08:58.609
+warning: ACPI MADT not found, default to 1 processor
+NET: no network interface found
+[0.033054, 0, exec] starting process tid 2, start 0x00000318c5eeb100
+Hello world from Node.js!
+
+Firecracker main: 2022-11-28T16:08:59.234
+Start vcpus: 2022-11-28T16:08:59.239
+warning: ACPI MADT not found, default to 1 processor
+NET: no network interface found
+[0.033904, 0, exec] starting process tid 2, start 0x00002f70fbbe6100
+Hello world from Node.js!
+

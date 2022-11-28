@@ -1,0 +1,6 @@
+Running Firecracker v1.1.0-274-g39cd5603-dirty
+2022-11-28T14:17:12.915482900 [anonymous-instance:main:INFO:src/vmm/src/device_manager/mmio.rs:408] Artificially kick devices.
+2022-11-28T14:17:12.915899800 [anonymous-instance:main:INFO:src/firecracker/src/main.rs:519] Successfully started microvm that was configured from one single json
+2022-11-28T14:17:12.929728200 [anonymous-instance:main:DEBUG:src/devices/src/virtio/block/event_handler.rs:35] block: activate event
+2022-11-28T14:17:13.648600200 [anonymous-instance:main:INFO:src/vmm/src/lib.rs:778] Vmm is stopping.
+2022-11-28T14:17:13.649069400 [anonymous-instance:main:INFO:src/vmm/src/lib.rs:778] Vmm is stopping.

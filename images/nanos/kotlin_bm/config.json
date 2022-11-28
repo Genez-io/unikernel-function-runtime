@@ -1,0 +1,9 @@
+{
+    "Args": [ "-jar", "./hello.jar"
+    ],
+    "RunConfig": {
+    },
+    "Files": [
+        "hello.jar"
+    ]
+}
