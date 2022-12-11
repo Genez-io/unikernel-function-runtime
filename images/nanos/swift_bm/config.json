@@ -1,14 +1,11 @@
 {
-    "Args": [
-        "hello"
-    ],
     "RunConfig": {
         "Ports": [
             "12345"
         ]
     },
-    "Program": "./hello",
+    "Program": "/home/cgeorge/genez/unikernel-function-runtime/images/nanos/swift_bm/.build/x86_64-unknown-linux-gnu/debug/swift_bm",
     "Files": [
-        "hello"
+        "/home/cgeorge/genez/unikernel-function-runtime/images/nanos/swift_bm/.build/x86_64-unknown-linux-gnu/debug/swift_bm"
     ]
 }

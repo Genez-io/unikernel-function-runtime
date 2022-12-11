@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  java_builder:
+    build: builders/java_builder
+    ports:
+      - 1323:1323
+    env_file:
+      - builders/java_builder/.env
+

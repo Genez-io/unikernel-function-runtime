@@ -1,7 +1,7 @@
 import XCTest
 
-import benchmarkTests
+import swift_bmTests
 
 var tests = [XCTestCaseEntry]()
-tests += benchmarkTests.allTests()
+tests += swift_bmTests.allTests()
 XCTMain(tests)

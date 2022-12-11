@@ -12,7 +12,7 @@
         }
     ],
     "machine-config": {
-        "vcpu_count": 1,
-        "mem_size_mib": 100
+        "vcpu_count": 2,
+        "mem_size_mib": 512
     }
 }

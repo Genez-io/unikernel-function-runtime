@@ -1,9 +1,16 @@
 {
-    "Args": [ "-jar", "./hello.jar"
+    "Args": [
+        "-jar",
+        "./hello.jar"
     ],
-    "RunConfig": {
-    },
+    "Program": "/home/cgeorge/genez/unikernel-function-runtime/images/nanos/kotlin_bm/runtime/bin/java",
     "Files": [
-        "hello.jar"
-    ]
+        "hello.jar",
+        "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    ],
+    "MapDirs": {
+        "./runtime/*": "/"
+    }
 }

@@ -1,18 +1,18 @@
 {
     "boot-source": {
-        "kernel_image_path": "/home/cgeorge/genez/nanos/output/platform/pc/bin/kernel.img",
+        "kernel_image_path": "/home/cgeorge/.ops/0.1.42/kernel.img",
         "boot_args": "console=ttyS0 reboot=k panic=1"
     },
     "drives": [
         {
             "drive_id": "rootfs",
-            "path_on_host": "/home/cgeorge/.ops/images/nanos_kotlin_bm",
+            "path_on_host": "/home/cgeorge/genez/unikernel-function-runtime/img_download",
             "is_root_device": true,
             "is_read_only": false
         }
     ],
     "machine-config": {
         "vcpu_count": 1,
-        "mem_size_mib": 100
+        "mem_size_mib": 512
     }
 }
