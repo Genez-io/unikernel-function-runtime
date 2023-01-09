@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+    ./kotlin_nanos_builder
+    ./kotlin_osv_builder
+
+)

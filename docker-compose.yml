@@ -1,10 +1,26 @@
 version: '3.8'
 
 services:
-  java_builder:
-    build: builders/java_builder
+  kotlin_nanos_builder:
+    build: builders/kotlin_nanos_builder
+    volumes:
+      - ./builders/builder_deps/kotlinc:/kotlinc
+      - ./builders/builder_deps/maven:/maven
+      - ./builders/builder_deps/ops:/nanos
+      - images:/images
     ports:
-      - 1323:1323
+      - 2709:2709
     env_file:
-      - builders/java_builder/.env
+      - builders/kotlin_nanos_builder/.env
 
+  kotlin_osv_builder:
+    build: builders/kotlin_osv_builder
+    volumes:
+      - ./builders/builder_deps/kotlinc:/kotlinc
+      - ./builders/builder_deps/osv:/osv
+    ports:
+      - 2710:2710
+    env_file:
+      - builders/kotlin_osv_builder/.env
+volumes:
+  images:

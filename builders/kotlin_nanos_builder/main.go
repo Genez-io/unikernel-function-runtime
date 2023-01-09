@@ -1,18 +1,13 @@
 package main
 
 import (
-	"manager/src/api"
-	"manager/src/manage"
-	"manager/src/networking"
+	"kotlin_nanos_builder/src/api"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
 
 func main() {
-	// Init Networking Package
-	networking.InitNetworking()
-	manage.InitCache()
 	// Echo instance
 	e := echo.New()
 
@@ -21,11 +16,11 @@ func main() {
 	e.Use(middleware.Recover())
 
 	// Routes
-	e.POST("api/images/:id", api.RunImage)
-	e.GET("api/images", api.GetImages)
+	e.POST("/unikernel", api.CreateUnikernel)
+	e.GET("/unikernel/:uuid", api.GetUnikernel)
 
 	// Start server
-	e.Logger.Fatal(e.Start(":2806"))
+	e.Logger.Fatal(e.Start(":2709"))
 
 	select {}
 }

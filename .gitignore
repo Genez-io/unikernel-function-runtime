@@ -1,1 +1,3 @@
 images
+manager/deps/nanos/*
+!manager/deps/nanos/README.md

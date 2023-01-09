@@ -1,6 +1,8 @@
 package models
 
-type CreateUnikernelRequest struct {
-	Code string
-	UUID string
+type RunImageRequest struct {
+	Jsonrpc string        `json:"jsonrpc"`
+	Method  string        `json:"method"`
+	Params  []interface{} `json:"params"`
+	ID      int           `json:"id,omitempty"`
 }

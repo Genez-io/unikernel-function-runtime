@@ -1,1 +1,0 @@
-/hello.jar : ${MODULE_DIR}/ROOTFS/hello.jar

@@ -1,0 +1,1 @@
+nanos kernel image goes here
